@@ -1,16 +1,13 @@
-/* line 121, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form * {
   font-family: "proxima-nova", sans-serif;
 }
 
-/* line 125, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .k_jquery-ui .ui-tabs {
   background: #f6f6f6;
   background: #f6f6f6;
   border: 0;
 }
 
-/* line 131, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .kimbiaDiv {
   background: #f6f6f6;
   background: #f6f6f6;
@@ -18,7 +15,6 @@
   padding: 1em 1.4em;
 }
 
-/* line 138, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .k_jquery-ui .ui-tabs .ui-tabs-nav {
   border: 1px solid black;
   border-radius: 24px;
@@ -30,7 +26,6 @@
   align-items: stretch;
 }
 
-/* line 155, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .k_jquery-ui .ui-tabs .ui-tabs-nav li {
   flex: 1 0 auto;
   margin: 0;
@@ -43,7 +38,6 @@
   font-weight: 700;
 }
 
-/* line 167, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .k_jquery-ui .ui-tabs .ui-tabs-nav li a {
   float: none;
   font-size: 0.875rem;
@@ -54,13 +48,11 @@
   letter-spacing: 1px;
 }
 
-/* line 177, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .k_jquery-ui .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
   padding: 0;
   margin: 0;
 }
 
-/* line 182, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form .k_jquery-ui li.ui-state-active a,
 .klru-form .k_jquery-ui li.ui-state-active a:link,
 .klru-form .k_jquery-ui li.ui-state-active a:visited {
@@ -71,7 +63,6 @@
   border-radius: 24px;
 }
 
-/* line 192, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv label.groupLabel.section {
   font-size: 1.3rem;
   margin: 1rem 0 0.3em 0;
@@ -79,7 +70,6 @@
   color: #404040;
 }
 
-/* line 199, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.inputGroup.k_rbGroup.k_donation input.k_radioCB {
   position: absolute !important;
   clip: rect(0, 0, 0, 0);
@@ -89,7 +79,6 @@
   overflow: hidden;
 }
 
-/* line 208, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.inputGroup.k_rbGroup.k_donation label.k_radioCB {
   display: inline-block;
   width: 6rem;
@@ -110,12 +99,10 @@
   transition: all 0.1s ease-in-out;
 }
 
-/* line 229, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.inputGroup.k_rbGroup.k_donation label.k_radioCB:hover {
   cursor: pointer;
 }
 
-/* line 233, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.inputGroup.k_rbGroup.k_donation input.k_radioCB:checked + label {
   background-color: #6caddf;
   color: white;
@@ -123,7 +110,6 @@
   box-shadow: none;
 }
 
-/* line 240, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_rbGroup input.k_money.k_otherMoney {
   max-width: 5em;
   margin: 1rem;
@@ -131,19 +117,16 @@
   font-weight: 700;
 }
 
-/* line 248, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile {
   display: grid !important;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2rem;
 }
 
-/* line 254, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv label.groupLabel.section.k_profileSection {
   grid-column: 1/-1;
 }
 
-/* line 258, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock.k_addressBlock {
   grid-column: 1/-1;
   display: grid !important;
@@ -151,28 +134,23 @@
   grid-column-gap: 1rem;
 }
 
-/* line 265, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock.k_addressBlock div.inputGroup:nth-child(1) {
   display: none;
 }
 
-/* line 269, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock.k_addressBlock div.inputGroup:nth-child(2) {
   grid-column: 1/-1;
 }
 
-/* line 273, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock.k_addressBlock div.inputGroup:nth-child(3) {
   grid-column: 1/-1;
 }
 
-/* line 277, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock:nth-child(5),
 .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock:nth-child(8) {
   grid-column: 1/-1;
 }
 
-/* line 282, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv label {
   display: block;
   font-weight: 500;
@@ -182,12 +160,10 @@
   line-height: 1;
 }
 
-/* line 291, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv label.k_required {
   font-weight: 500;
 }
 
-/* line 295, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv input.k_number,
 .klru-form div.kimbiaDiv input.k_text,
 .klru-form div.kimbiaDiv input.k_money,
@@ -205,20 +181,17 @@
   margin: 0.2rem 0;
 }
 
-/* line 312, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv select.k_select {
   height: 40px;
   border-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 318, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form select {
   border-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 323, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv input.k_number.k_required,
 .klru-form div.kimbiaDiv input.k_text.k_required,
 .klru-form div.kimbiaDiv input.k_money.k_required,
@@ -226,7 +199,6 @@
   border: 2px solid #404040;
 }
 
-/* line 330, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv textarea.k_textarea.acknowledge {
   border: 0;
   background: transparent;
@@ -234,7 +206,6 @@
   height: 8.5rem;
 }
 
-/* line 337, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv button.k_button.forward,
 form#stdform button[type="submit"] {
   overflow: visible;
@@ -259,30 +230,25 @@ form#stdform button[type="submit"] {
   transition: background-color 0.3s ease-out;
 }
 
-/* line 498, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv button.k_button.forward:hover,
 form#stdform button[type="submit"]:hover {
   background: black;
   cursor: pointer;
 }
 
-/* line 504, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv div.k_column.k_colNum0 {
   width: 85%;
 }
 
-/* line 508, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div#kimbiaView_1__payment_monthExpires,
 .klru-form div#kimbiaView_1__payment_yearExpires {
   width: 66%;
 }
 
-/* line 513, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv table.k_table td {
   padding: 0.5rem;
 }
 
-/* line 517, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form div.kimbiaDiv table.k_table th {
   font-weight: bold;
   text-transform: capitalize;
@@ -290,7 +256,6 @@ form#stdform button[type="submit"]:hover {
   font-size: 1.2rem;
 }
 
-/* line 524, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form.pledger div.inputGroup.k_rbGroup.k_donation input.k_radioCB {
   position: relative !important;
   clip: auto;
@@ -300,7 +265,6 @@ form#stdform button[type="submit"]:hover {
   overflow: auto;
 }
 
-/* line 533, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form.pledger div.inputGroup.k_rbGroup.k_donation label.k_radioCB {
   display: inline-block;
   width: auto;
@@ -316,7 +280,6 @@ form#stdform button[type="submit"]:hover {
   vertical-align: text-top;
 }
 
-/* line 548, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form.pledger div.inputGroup.k_rbGroup.k_donation input.k_radioCB:checked + label {
   background-color: transparent;
   color: black;
@@ -324,35 +287,32 @@ form#stdform button[type="submit"]:hover {
   box-shadow: none;
 }
 
-/* line 555, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form.pledger div.kimbiaDiv label.groupLabel.section {
   font-size: 1.6rem;
 }
 
-/* line 559, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
 .klru-form.pledger .kimbiaDiv {
   padding: 0.4rem 1.4rem;
 }
 
 @media screen and (max-width: 560px) {
-  /* line 564, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
   .klru-form .k_jquery-ui .ui-tabs .ui-tabs-nav {
     display: block;
   }
-  /* line 568, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
+
   .klru-form .k_jquery-ui .ui-tabs .ui-tabs-nav li a {
     font-size: 0.75rem;
   }
-  /* line 572, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
+
   .klru-form .k_jquery-ui .ui-tabs .ui-tabs-panel {
     padding: 1rem 0;
   }
-  /* line 576, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
+
   .klru-form div.kimbiaDiv div.k_section.k_sectionProfile,
   .klru-form div.kimbiaDiv div.k_section.k_sectionProfile div.k_questionBlock.k_addressBlock {
     display: block !important;
   }
-  /* line 581, /Users/jreyes/Desktop/Coding/KLRU/KLRU/public/stylesheets/scss/_forms.scss */
+
   .klru-form div.kimbiaDiv div.k_column.k_colNum0 {
     width: 100%;
   }
